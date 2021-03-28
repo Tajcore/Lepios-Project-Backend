@@ -2,3 +2,4 @@ bocadillo>=0.14
 nltk  
 tflearn 
 numpy 
+gunicorn
