@@ -1,4 +1,5 @@
 bocadillo>=0.14
+tensorflow
 nltk  
 tflearn 
 numpy 
