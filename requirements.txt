@@ -2,4 +2,3 @@ bocadillo>=0.14
 nltk  
 tflearn 
 numpy 
-scikit_learn 
