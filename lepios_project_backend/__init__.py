@@ -3,7 +3,8 @@ import pickle
 from nltk.stem.lancaster import LancasterStemmer
 import tflearn
 from pathlib import Path
-
+import nltk
+nltk.download('punkt')
 
 root = Path('.')
 
