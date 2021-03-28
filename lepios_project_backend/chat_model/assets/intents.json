@@ -1,0 +1,122 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Is anyone there?",
+        "Hello",
+        "Hay",
+        "Hola",
+        "good morning",
+        "good afternoon",
+        "good evening",
+        "wah gwan",
+        "uptop",
+        "sup",
+        "what’s up?",
+        "what’s new",
+        "what’s going on?",
+        "howdy?",
+        "greetings",
+        "bonjour",
+        "good day",
+        "hey there!",
+        "yo!"
+      ],
+      "responses": [
+        "How's your health been?",
+        "Hi there, need a health checkup?",
+        "Hey, have you been feeling well lately?",
+        "How have you been?"
+      ],
+      "extension": {
+        "function": "",
+        "entities": false
+      }
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": ["See you later", "Have a nice day", "Bye! Come back again"],
+      "extension": {
+        "function": "",
+        "entities": false
+      }
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "That is helpful",
+        "Bless",
+        "Blessings",
+        "Big ups"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure",
+        "You're most welcome!"
+      ],
+      "extension": {
+        "function": "",
+        "entities": false
+      }
+    },
+    {
+      "tag": "about",
+      "patterns": ["Who are you?", "What are you?", "Who you are?"],
+      "responses": [
+        "I'm Lepios, your medical bot assistant",
+        "I'm Lepios, an Artificial Intelligent bot"
+      ],
+      "extension":{
+        "function": "",
+        "entities": false
+      }
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "what is your name",
+        "what should I call you",
+        "whats your name?"
+      ],
+      "responses": [
+        "You can call me Lepios.",
+        "I'm Lepios!",
+        "Just call me as Lepios"
+      ],
+      "extension":{
+        "function": "",
+        "entities": false
+      }
+    },
+    {
+      "tag": "consultation",
+      "patterns": [
+        "Could you help me?",
+        "give me a hand please",
+        "I am not feeling too well",
+        "I feel really sick",
+        "Okay so my body feels like",
+        "Can you help?",
+        "What can you do for me?",
+        "I need a support",
+        "I need a help",
+        "support me please"
+      ],
+      "responses": [
+        "Okay let's find out what might be the issue",
+        "Tell me your problem to assist you",
+        "How is your health?"
+      ],
+      "extension":{
+        "function": "beginConsultation",
+        "entities": false
+      }
+    }
+  ]
+}
