@@ -58,5 +58,5 @@ class Lepios:
                     # Tag Finding
                     if i['tag'] == results[0][0]:
                         # Random Response from High Order Probabilities
-                        return print(random.choice(i['responses']))
+                        return random.choice(i['responses'])
                 results.pop(0)
