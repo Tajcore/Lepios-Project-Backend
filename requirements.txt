@@ -1,8 +1,5 @@
 bocadillo>=0.14
-tensorflow
 nltk  
-colorama  
 tflearn 
 numpy 
 scikit_learn 
-Flask
