@@ -1,8 +1,7 @@
 import nltk
-import random
 import numpy as np
 
-class Lepios:
+class SymptomPrediction:
     def __init__(self, model, ERR_THRESHOLD, stemmer, words, classes, intents):
         self.model = model
         self.ERR_THRESHOLD = ERR_THRESHOLD
@@ -33,7 +32,6 @@ class Lepios:
         return(np.array(bag))
 
     def classify(self, sentence):
-       
         # Prediction or To Get the Posibility or Probability from the Model
 
         bow = self.bow(sentence, self.words)
@@ -54,10 +52,12 @@ class Lepios:
         # That Means if Classification is Done then Find the Matching Tag.
         if results:
             # Long Loop to get the Result.
-            while results:
+            symptoms = []
+            for result in results[:4]:
                 for i in self.intents['intents']:
                     # Tag Finding
-                    if i['tag'] == results[0][0]:
+                    if i['tag'] == result[0]:
                         # Random Response from High Order Probabilities
-                        return [random.choice(i['responses']), i['tag']]
-                results.pop(0)
+                         symptoms.append([i['tag'], " ".join(i['patterns'])])
+            return symptoms  
+

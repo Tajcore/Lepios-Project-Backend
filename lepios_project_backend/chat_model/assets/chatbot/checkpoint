@@ -1,0 +1,2 @@
+model_checkpoint_path: "C:\\Users\\tahjy\\Documents\\Web Apps\\lepios_project_backend\\lepios_project_backend\\chat_model\\assets\\chatbot\\model.tflearn"
+all_model_checkpoint_paths: "C:\\Users\\tahjy\\Documents\\Web Apps\\lepios_project_backend\\lepios_project_backend\\chat_model\\assets\\chatbot\\model.tflearn"

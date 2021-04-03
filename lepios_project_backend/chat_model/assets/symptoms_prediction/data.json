@@ -1,0 +1,206 @@
+{
+  "intents": [
+    { "tag": "itching", "patterns": ["itching"] },
+    { "tag": "skin_rash", "patterns": ["skin", "rash"] },
+    {
+      "tag": "nodal_skin_eruptions",
+      "patterns": ["nodal", "skin", "eruptions"]
+    },
+    { "tag": "continuous_sneezing", "patterns": ["continuous", "sneezing"] },
+    { "tag": "shivering", "patterns": ["shivering"] },
+    { "tag": "chills", "patterns": ["chills"] },
+    { "tag": "joint_pain", "patterns": ["joint", "pain"] },
+    { "tag": "stomach_pain", "patterns": ["stomach", "pain"] },
+    { "tag": "acidity", "patterns": ["acidity"] },
+    { "tag": "ulcers_on_tongue", "patterns": ["ulcers", "on", "tongue"] },
+    { "tag": "muscle_wasting", "patterns": ["muscle", "wasting"] },
+    { "tag": "vomiting", "patterns": ["vomiting"] },
+    { "tag": "burning_micturition", "patterns": ["burning", "micturition"] },
+    { "tag": "spotting_urination", "patterns": ["spotting", "urination"] },
+    { "tag": "fatigue", "patterns": ["fatigue"] },
+    { "tag": "weight_gain", "patterns": ["weight", "gain"] },
+    { "tag": "anxiety", "patterns": ["anxiety"] },
+    {
+      "tag": "cold_hands_and_feets",
+      "patterns": ["cold", "hands", "and", "feets"]
+    },
+    { "tag": "mood_swings", "patterns": ["mood", "swings"] },
+    { "tag": "weight_loss", "patterns": ["weight", "loss"] },
+    { "tag": "restlessness", "patterns": ["restlessness"] },
+    { "tag": "lethargy", "patterns": ["lethargy"] },
+    { "tag": "patches_in_throat", "patterns": ["patches", "in", "throat"] },
+    {
+      "tag": "irregular_sugar_level",
+      "patterns": ["irregular", "sugar", "level"]
+    },
+    { "tag": "cough", "patterns": ["cough"] },
+    { "tag": "high_fever", "patterns": ["high", "fever"] },
+    { "tag": "sunken_eyes", "patterns": ["sunken", "eyes"] },
+    { "tag": "breathlessness", "patterns": ["breathlessness"] },
+    { "tag": "sweating", "patterns": ["sweating"] },
+    { "tag": "dehydration", "patterns": ["dehydration"] },
+    { "tag": "indigestion", "patterns": ["indigestion"] },
+    { "tag": "headache", "patterns": ["headache"] },
+    { "tag": "yellowish_skin", "patterns": ["yellowish", "skin"] },
+    { "tag": "dark_urine", "patterns": ["dark", "urine"] },
+    { "tag": "nausea", "patterns": ["nausea"] },
+    { "tag": "loss_of_appetite", "patterns": ["loss", "of", "appetite"] },
+    {
+      "tag": "pain_behind_the_eyes",
+      "patterns": ["pain", "behind", "the", "eyes"]
+    },
+    { "tag": "back_pain", "patterns": ["back", "pain"] },
+    { "tag": "constipation", "patterns": ["constipation"] },
+    { "tag": "abdominal_pain", "patterns": ["abdominal", "pain"] },
+    { "tag": "diarrhoea", "patterns": ["diarrhoea"] },
+    { "tag": "mild_fever", "patterns": ["mild", "fever"] },
+    { "tag": "yellow_urine", "patterns": ["yellow", "urine"] },
+    { "tag": "yellowing_of_eyes", "patterns": ["yellowing", "of", "eyes"] },
+    { "tag": "acute_liver_failure", "patterns": ["acute", "liver", "failure"] },
+    { "tag": "fluid_overload", "patterns": ["fluid", "overload"] },
+    { "tag": "swelling_of_stomach", "patterns": ["swelling", "of", "stomach"] },
+    { "tag": "swelled_lymph_nodes", "patterns": ["swelled", "lymph", "nodes"] },
+    { "tag": "malaise", "patterns": ["malaise"] },
+    {
+      "tag": "blurred_and_distorted_vision",
+      "patterns": ["blurred", "and", "distorted", "vision"]
+    },
+    { "tag": "phlegm", "patterns": ["phlegm"] },
+    { "tag": "throat_irritation", "patterns": ["throat", "irritation"] },
+    { "tag": "redness_of_eyes", "patterns": ["redness", "of", "eyes"] },
+    { "tag": "sinus_pressure", "patterns": ["sinus", "pressure"] },
+    { "tag": "runny_nose", "patterns": ["runny", "nose"] },
+    { "tag": "congestion", "patterns": ["congestion"] },
+    { "tag": "chest_pain", "patterns": ["chest", "pain"] },
+    { "tag": "weakness_in_limbs", "patterns": ["weakness", "in", "limbs"] },
+    { "tag": "fast_heart_rate", "patterns": ["fast", "heart", "rate"] },
+    {
+      "tag": "pain_during_bowel_movements",
+      "patterns": ["pain", "during", "bowel", "movements"]
+    },
+    {
+      "tag": "pain_in_anal_region",
+      "patterns": ["pain", "in", "anal", "region"]
+    },
+    { "tag": "bloody_stool", "patterns": ["bloody", "stool"] },
+    { "tag": "irritation_in_anus", "patterns": ["irritation", "in", "anus"] },
+    { "tag": "neck_pain", "patterns": ["neck", "pain"] },
+    { "tag": "dizziness", "patterns": ["dizziness"] },
+    { "tag": "cramps", "patterns": ["cramps"] },
+    { "tag": "bruising", "patterns": ["bruising"] },
+    { "tag": "obesity", "patterns": ["obesity"] },
+    { "tag": "swollen_legs", "patterns": ["swollen", "legs"] },
+    {
+      "tag": "swollen_blood_vessels",
+      "patterns": ["swollen", "blood", "vessels"]
+    },
+    {
+      "tag": "puffy_face_and_eyes",
+      "patterns": ["puffy", "face", "and", "eyes"]
+    },
+    { "tag": "enlarged_thyroid", "patterns": ["enlarged", "thyroid"] },
+    { "tag": "brittle_nails", "patterns": ["brittle", "nails"] },
+    { "tag": "swollen_extremeties", "patterns": ["swollen", "extremeties"] },
+    { "tag": "excessive_hunger", "patterns": ["excessive", "hunger"] },
+    {
+      "tag": "extra_marital_contacts",
+      "patterns": ["extra", "marital", "contacts"]
+    },
+    {
+      "tag": "drying_and_tingling_lips",
+      "patterns": ["drying", "and", "tingling", "lips"]
+    },
+    { "tag": "slurred_speech", "patterns": ["slurred", "speech"] },
+    { "tag": "knee_pain", "patterns": ["knee", "pain"] },
+    { "tag": "hip_joint_pain", "patterns": ["hip", "joint", "pain"] },
+    { "tag": "muscle_weakness", "patterns": ["muscle", "weakness"] },
+    { "tag": "stiff_neck", "patterns": ["stiff", "neck"] },
+    { "tag": "swelling_joints", "patterns": ["swelling", "joints"] },
+    { "tag": "movement_stiffness", "patterns": ["movement", "stiffness"] },
+    { "tag": "spinning_movements", "patterns": ["spinning", "movements"] },
+    { "tag": "loss_of_balance", "patterns": ["loss", "of", "balance"] },
+    { "tag": "unsteadiness", "patterns": ["unsteadiness"] },
+    {
+      "tag": "weakness_of_one_body_side",
+      "patterns": ["weakness", "of", "one", "body", "side"]
+    },
+    { "tag": "loss_of_smell", "patterns": ["loss", "of", "smell"] },
+    { "tag": "bladder_discomfort", "patterns": ["bladder", "discomfort"] },
+    { "tag": "foul_smell_ofurine", "patterns": ["foul", "smell", "ofurine"] },
+    {
+      "tag": "continuous_feel_of_urine",
+      "patterns": ["continuous", "feel", "of", "urine"]
+    },
+    { "tag": "passage_of_gases", "patterns": ["passage", "of", "gases"] },
+    { "tag": "internal_itching", "patterns": ["internal", "itching"] },
+    { "tag": "toxic_look_(typhos)", "patterns": ["toxic", "look", "(typhos)"] },
+    { "tag": "depression", "patterns": ["depression"] },
+    { "tag": "irritability", "patterns": ["irritability"] },
+    { "tag": "muscle_pain", "patterns": ["muscle", "pain"] },
+    { "tag": "altered_sensorium", "patterns": ["altered", "sensorium"] },
+    {
+      "tag": "red_spots_over_body",
+      "patterns": ["red", "spots", "over", "body"]
+    },
+    { "tag": "belly_pain", "patterns": ["belly", "pain"] },
+    {
+      "tag": "abnormal_menstruation",
+      "patterns": ["abnormal", "menstruation"]
+    },
+    { "tag": "dischromic_patches", "patterns": ["dischromic", "patches"] },
+    { "tag": "watering_from_eyes", "patterns": ["watering", "from", "eyes"] },
+    { "tag": "increased_appetite", "patterns": ["increased", "appetite"] },
+    { "tag": "polyuria", "patterns": ["polyuria"] },
+    { "tag": "family_history", "patterns": ["family", "history"] },
+    { "tag": "mucoid_sputum", "patterns": ["mucoid", "sputum"] },
+    { "tag": "rusty_sputum", "patterns": ["rusty", "sputum"] },
+    {
+      "tag": "lack_of_concentration",
+      "patterns": ["lack", "of", "concentration"]
+    },
+    { "tag": "visual_disturbances", "patterns": ["visual", "disturbances"] },
+    {
+      "tag": "receiving_blood_transfusion",
+      "patterns": ["receiving", "blood", "transfusion"]
+    },
+    {
+      "tag": "receiving_unsterile_injections",
+      "patterns": ["receiving", "unsterile", "injections"]
+    },
+    { "tag": "coma", "patterns": ["coma"] },
+    { "tag": "stomach_bleeding", "patterns": ["stomach", "bleeding"] },
+    {
+      "tag": "distention_of_abdomen",
+      "patterns": ["distention", "of", "abdomen"]
+    },
+    {
+      "tag": "history_of_alcohol_consumption",
+      "patterns": ["history", "of", "alcohol", "consumption"]
+    },
+    { "tag": "fluid_overload", "patterns": ["fluid", "overload"] },
+    { "tag": "blood_in_sputum", "patterns": ["blood", "in", "sputum"] },
+    {
+      "tag": "prominent_veins_on_calf",
+      "patterns": ["prominent", "veins", "on", "calf"]
+    },
+    { "tag": "palpitations", "patterns": ["palpitations"] },
+    { "tag": "painful_walking", "patterns": ["painful", "walking"] },
+    { "tag": "pus_filled_pimples", "patterns": ["pus", "filled", "pimples"] },
+    { "tag": "blackheads", "patterns": ["blackheads"] },
+    { "tag": "scurring", "patterns": ["scurring"] },
+    { "tag": "skin_peeling", "patterns": ["skin", "peeling"] },
+    { "tag": "silver_like_dusting", "patterns": ["silver", "like", "dusting"] },
+    {
+      "tag": "small_dents_in_nails",
+      "patterns": ["small", "dents", "in", "nails"]
+    },
+    { "tag": "inflammatory_nails", "patterns": ["inflammatory", "nails"] },
+    { "tag": "blister", "patterns": ["blister"] },
+    {
+      "tag": "red_sore_around_nose",
+      "patterns": ["red", "sore", "around", "nose"]
+    },
+    { "tag": "yellow_crust_ooze", "patterns": ["yellow", "crust", "ooze"] },
+    { "tag": "prognosis", "patterns": ["prognosis"] }
+  ]
+}
