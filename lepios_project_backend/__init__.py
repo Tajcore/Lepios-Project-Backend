@@ -6,6 +6,7 @@ import tflearn
 from pathlib import Path
 import nltk
 from tensorflow.python.framework import ops
+import joblib
 
 nltk.download('punkt')
 
@@ -15,7 +16,9 @@ training_data_path = root / "lepios_project_backend" / 'chat_model' /  'assets' 
 intents_path = root / "lepios_project_backend" / 'chat_model' / 'assets' /'chatbot' / 'intents.json'
 model_path = root / "lepios_project_backend" / 'chat_model' / 'assets' /'chatbot' / 'model.tflearn'
 
-
+disease_pred_path = root / "lepios_project_backend" / 'chat_model' / 'assets' /'disease_prediction' / 'disease_prediction_model.pkl'
+ilnesses_path =  root / "lepios_project_backend" / 'chat_model' / 'assets' /'disease_prediction' / 'ilnesses.json'
+precautions_path = root / "lepios_project_backend" / 'chat_model' / 'assets' /'disease_prediction' / 'precautions.json'
 
 symptoms_path =  root / "lepios_project_backend" / 'chat_model' / 'assets' /'symptoms_prediction' / 'data.json'
 symptoms_model_path = root / "lepios_project_backend" / 'chat_model' / 'assets' / 'symptoms_prediction' / 'model_symptoms.tflearn'
@@ -34,13 +37,20 @@ classes_symptoms = data_symptoms['classes']
 train_x_symptoms = data_symptoms['train_x']
 train_y_symptoms = data_symptoms['train_y']
 
+disease_pred_data = joblib.load(open(disease_pred_path, "rb"))
+disease_x_train = disease_pred_data['x_train']
+disease_pred_model = disease_pred_data['model']
 with open(intents_path) as json_data:
     intents = json.load(json_data)
 
 with open(symptoms_path) as symptoms_data:
     symptoms = json.load(symptoms_data)
 
+with open(ilnesses_path) as illnesses_data:
+    illnesses = json.load(illnesses_data)
 
+with open(precautions_path) as precautions_data:
+    precautions = json.load(precautions_data)
 
 stemmer = LancasterStemmer()
 
