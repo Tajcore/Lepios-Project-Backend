@@ -4,3 +4,6 @@ nltk
 tflearn 
 numpy 
 gunicorn
+sklearn==0.0
+scipy==1.6.2
+scikit-learn==0.24.1
