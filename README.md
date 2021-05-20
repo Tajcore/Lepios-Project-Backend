@@ -11,9 +11,10 @@ pip install -r requirements.txt
 
 ## Usage
 
-Set up virtual environemnt:
+Set up virtual environment:
 
-```bash python -m venv venv
+```bash
+python -m venv venv
 ```
 
 Start the virtual environment server:
