@@ -5,3 +5,4 @@ tflearn
 numpy 
 gunicorn
 pandas
+sklearn
