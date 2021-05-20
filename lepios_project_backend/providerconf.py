@@ -28,7 +28,7 @@ from . import (
 def lepios():
     lepios = Lepios(
         model=model,
-        ERR_THRESHOLD=0,
+        ERR_THRESHOLD=0.5,
         stemmer=stemmer,
         words=words,
         classes=classes,
@@ -41,7 +41,7 @@ def lepios():
 def symptom_prediction():
     symptom_prediction = SymptomPrediction(
         model=model_symptoms,
-        ERR_THRESHOLD=0,
+        ERR_THRESHOLD=0.05,
         stemmer=stemmer,
         words=words_symptoms,
         classes=classes_symptoms,

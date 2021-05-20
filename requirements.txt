@@ -1,9 +1,7 @@
 bocadillo>=0.14
-tensorflow-cpu
+tensorflow
 nltk  
 tflearn 
 numpy 
 gunicorn
-sklearn==0.0
-scikit-learn==0.24.1
 pandas

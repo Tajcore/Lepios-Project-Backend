@@ -16,3 +16,16 @@ class DiseasePrediction:
 
     def predict(self):
         return self.model.predict(self.input_table)[0]
+
+    def predict_top3(self):
+        classes = self.model.classes_
+        out = self.model.predict_proba(self.input_table)[0]
+        disease_prob = dict(zip(classes, out))
+        sorted_diseases = [
+            (k, v)
+            for k, v in sorted(
+                disease_prob.items(), key=lambda item: item[1], reverse=True
+            )
+            if v > 0
+        ]
+        return sorted_diseases[0:3]
