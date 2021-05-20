@@ -1,18 +1,24 @@
-# lepios_project_backend
+# Project AskLepios Backend
 
-This project was generated using [Bocadillo CLI][repo] version 0.2.2.
-
-[repo]: https://github.com/bocadilloproject/bocadillo-cli
 
 ## Install
 
-Install Python dependencies:
+Install Python dependencies (run virtual environment before - recommended)
 
 ```bash
 pip install -r requirements.txt
 ```
 
 ## Usage
+
+Set up virtual environemnt:
+
+```bash python -m venv venv```
+
+Start the virtual environment server:
+
+```bash
+cd server cd venv cd scripts activate```
 
 Start the uvicorn server:
 
@@ -24,7 +30,6 @@ To enable hot reload, use the `--reload` option.
 
 The server will run at `http://localhost:8000`.
 
-Happy coding!
 
 ## Getting help
 
