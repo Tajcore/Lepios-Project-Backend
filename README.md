@@ -13,12 +13,14 @@ pip install -r requirements.txt
 
 Set up virtual environemnt:
 
-```bash python -m venv venv```
+```bash python -m venv venv
+```
 
 Start the virtual environment server:
 
 ```bash
-cd server cd venv cd scripts activate```
+cd server cd venv cd scripts activate
+```
 
 Start the uvicorn server:
 
